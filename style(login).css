@@ -1,0 +1,90 @@
+		
+
+		#head{
+			background-color: gray;
+			margin: 0px;
+			padding: 0px;
+			background-color: #0003;
+		}
+		#enter{
+			background-color: #0003;
+			height: 70px;
+			margin: 0px;
+			padding: 10px;
+			font-family: cursive;
+			color: #456;
+		}
+
+
+		body{
+			margin: 0px;
+			background-image: url(3.jpg);
+		}
+
+		.intro{
+			background-color: #0002;
+			text-align: right;
+			height: 20px;
+			padding: 40px;
+			font-family: cursive;
+			margin: 0px;
+			text-shadow: 5px 2px 3px gray;
+			color: #FFF; 
+
+		}
+
+		#subintro{
+			margin: 0px;
+			padding: 0px;
+			font-family:monospace;
+		}
+		h5{
+			color: white;
+			text-align: right;
+			
+		}
+
+		.details{
+			
+			color: #456;
+			font-size: 16px;
+			font-family: fantasy;
+			text-align: center;
+			background-color: #0001;
+		}
+
+		.create-account{
+			text-align: center;
+			font-size: 16px;
+			font-family: sans-serif;
+
+		}
+		.login-body{
+			margin: 0px;
+			padding: 0px;
+			
+			height: 700px;
+		}
+
+		input{
+			background-color: #0002;
+			border-top: none;
+			border-right: none;
+			border-left: none;
+		}
+
+		#submit{
+			padding: 10px 10px;
+		}
+
+		p{
+			text-align: center;
+			
+		}
+
+		#footer{
+			padding: 70px 70px;
+			text-align: right;
+			color: black;
+
+		}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Profile</title>
+	<link rel="stylesheet" href="portal.css">
+</head>
+<body>
+	<button id="back-button" onclick="window.location.href='Homepage.html'"><img src="back.png"></button>
+	<br>
+	<ul class="profile-nav">
+	<h3>Dashboard</h3>
+	<a href="payment.html"><li><img src="pay.png">Payments</li></a>
+	<a href="transdetails.html"><li><img src="details.png">Transaction Details</li></a>
+	<a href="transsum.html"><li><img src="summary.png">Transaction Summary</li></a>
+	<a href="balance.html"><li><img src="balance.png">Check Balance</li></a>
+	<a href="transfer.html"><li><img src="transfer.png">Transfers</li></a>
+	<a href="change.html"><li><img src="change.png">Change Code/Password</li></a>
+	</ul>
+	<img src="logo.png" alt="Logo" id="logo">
+
+	<div class="balance">
+		<h4>Check Balance</h4>
+		<hr>
+		<form>
+			UserID:<br>
+			<input required type="text" name="ID"><br><br><br>
+
+			Enter Code:<br>
+			<input required type="password" name="Code"><br><br><br>
+
+			<input type="submit" value="Check Balance" onclick="alert('Your account balance is #100,000.00')">
+
+		</form>		
+	</div>
+
+
+
+
+	<div id="mainfooter">
+		<h5>&copy Stans Enterprises 2018</h5>
+	</div>
+</body>
+</html>

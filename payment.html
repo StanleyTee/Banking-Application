@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Portal</title>
+	<link rel="stylesheet"  href="portal.css">
+</head>
+<body>
+
+	<button id="back-button" onclick="window.location.href='Homepage.html'"><img src="back.png"></button>
+	<br>
+	<ul class="profile-nav">
+	<h3>Dashboard</h3>
+	<a href="payment.html"><li><img src="pay.png">Payments</li></a>
+	<a href="transdetails.html"><li><img src="details.png">Transaction Details</li></a>
+	<a href="transsum.html"><li><img src="summary.png">Transaction Summary</li></a>
+	<a href="balance.html"><li><img src="balance.png">Check Balance</li></a>
+	<a href="transfer.html"><li><img src="transfer.png">Transfers</li></a>
+	<a href="change.html"><li><img src="change.png">Change Code/Password</li></a>
+	</ul>
+	<img src="logo.png" alt="Logo" id="logo">
+	
+
+	<div class="payment-body">
+		<h4>Payments</h4>
+		<hr>
+		<form method="POST">
+			Type:<br>
+			<select>
+				<option>DSTV</option>
+				<option>GOTV</option>
+				<option>PHCN bills</option>
+				<option>Tax/Rent</option>
+			</select><br><br>
+
+			Amount(in Naira):<br>
+			<input required type="number" name="Amount"><br><br>
+
+			Serial Number/Meter number:<br>
+			<input required type="text" name="Serial number"><br><br>
+
+			Portal code:<br>
+			<input required type="password" name="code" maxlength="4"><br><br><br>
+
+			<input required type="submit" value="Submit" onclick="alert('Payment Successful, A verfication will be sent to your mail')">
+		</form>
+
+		<br>
+
+	</div>
+	<div id="mainfooter">
+		<h5>&copy Stans Enterprises 2018</h5>
+
+	</div>
+
+</body>
+</html>

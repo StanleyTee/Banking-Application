@@ -1,0 +1,111 @@
+		body{
+			background-color: #315671;
+		}
+		#logo{
+			width: 100px;
+			height: 100px;
+			top:120px;
+			left: 1200px;
+			padding-left: 500px;
+
+		}
+
+		.profile-nav {
+			display: inline-table;
+			background-color: #0009;
+			padding: 5px 1px;
+			margin: 0px;
+			list-style-type: none;
+			box-shadow: 2px 2px 4px black;
+		}
+
+		.profile-nav li{
+			display: block;
+			padding: 44px 35px;
+			color:#d7d7d7;
+			border: solid 1px white;
+			border-right: none;
+			border-left: none;
+		}
+
+		h3{
+			color: #083866b3;
+			font-family: Tahoma,Geneva,sans-serif;
+			padding-left: 10px
+		}
+
+		#back-button{
+			width: 49px;
+			height: 49px;
+			border: solid 0.5px black;
+			border-radius: 120px;
+			padding-left: 0.1px;
+		}
+
+		.profile-nav img{
+			height: 40px;
+			width: 40px;
+		}
+
+		.landing-page h1{
+			position: absolute;
+			top: 50%;
+			left:600px;
+		}
+
+		.landing-page p{
+			position: absolute;
+			top: 380px;
+			left:600px;
+		}
+
+		.payment-body{
+			position: absolute;
+			top: 170px;
+			left: 550px;
+			font-size: 29px;
+		}
+
+		.trans-details{
+			position: absolute;
+			top: 170px;
+			left: 550px;
+			font-size: 29px;
+
+		}
+
+		.trans-sum{
+			position: absolute;
+			top: 170px;
+			left: 550px;
+			font-size: 29px;
+		}
+
+		.balance{
+			position: absolute;
+			top: 160px;
+			left: 550px;
+			font-size: 29px;
+		}
+
+
+		.transfer{
+			position: absolute;
+			top: 125px;
+			left: 550px;
+			font-size: 24px;
+		}
+
+		.change{
+			position: absolute;
+			top: 125px;
+			left: 550px;
+			font-size: 24px;	
+		}
+		#mainfooter{
+			background-color: #000;
+			color: #FFF;
+			padding: 5px;
+			margin: 0px;
+			text-align: right;
+		}
